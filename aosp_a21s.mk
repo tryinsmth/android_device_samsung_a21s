@@ -27,15 +27,12 @@ $(call inherit-product, device/samsung/a21s/device.mk)
 TARGET_SCREEN_HEIGHT := 1600
 TARGET_SCREEN_WIDTH := 720
 
-## Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
-
 ## Device identifier, this must come after all inclusions
 PRODUCT_DEVICE := a21s
-PRODUCT_NAME := lineage_a21s
+PRODUCT_NAME := aosp_a21s
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-A217X
-PRODUCT_MANUFACTURER := samsung
+PRODUCT_MODEL := SM-A217F
+PRODUCT_MANUFACTURER := Samsung
 PRODUCT_SHIPPING_API_LEVEL := 29
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
