@@ -23,6 +23,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 ## Inherit from a21s device
 $(call inherit-product, device/samsung/a21s/device.mk)
 
+## Inherit some common aosp stuff
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+
 ## Boot Animation
 TARGET_SCREEN_HEIGHT := 1600
 TARGET_SCREEN_WIDTH := 720
