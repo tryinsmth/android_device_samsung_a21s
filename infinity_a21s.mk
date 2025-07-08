@@ -24,7 +24,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 $(call inherit-product, device/samsung/a21s/device.mk)
 
 ## Inherit some common aosp stuff
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
 ## Boot Animation
 TARGET_SCREEN_HEIGHT := 1600
@@ -32,7 +32,7 @@ TARGET_SCREEN_WIDTH := 720
 
 ## Device identifier, this must come after all inclusions
 PRODUCT_DEVICE := a21s
-PRODUCT_NAME := aosp_a21s
+PRODUCT_NAME := infinity_a21s
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A217F
 PRODUCT_MANUFACTURER := Samsung
