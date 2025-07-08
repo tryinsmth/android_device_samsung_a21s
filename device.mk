@@ -22,3 +22,9 @@ $(call inherit-product, vendor/samsung/a21s/a21s-vendor.mk)
 
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
+
+ro.product.marketname=Samsung a21s
+ro.infinity.soc=Exynos 850
+ro.infinity.battery=5000 mAh
+ro.infinity.display=720 x 1600, 60 Hz
+ro.infinity.camera= 48mp
