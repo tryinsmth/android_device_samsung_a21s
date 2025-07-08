@@ -23,7 +23,28 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 ## Inherit from a21s device
 $(call inherit-product, device/samsung/a21s/device.mk)
 
-## Inherit some common aosp stuff
+# Whether you are compiling being an OFFICIAL Maintainer:
+INFINITY_BUILD_TYPE := UNOFFICIAL 
+
+# Maintainer Name
+INFINITY_MAINTAINER := "Mustafa"
+
+# Whether the package includes System BLURS
+TARGET_SUPPORTS_BLUR := true 
+
+# Whether the compiled package ships Google Apps:
+WITH_GAPPS := false
+
+# Whether the compiled package ships more (mostly unimportant) Google Apps:
+TARGET_SHIPS_FULL_GAPPS := false
+
+# Whether the compiled shipped gapps package uses Google Dialer:
+TARGET_SHIPS_GOOGLE_DIALER := false
+
+# Whether the compiled package ships Motorola Calculator:
+USE_MOTO_CALCULATOR := true
+
+## Inherit some common infinity stuff
 $(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
 ## Boot Animation
