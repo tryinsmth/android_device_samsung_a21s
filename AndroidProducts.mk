@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_a21s.mk
+    $(LOCAL_DIR)/infinity_a21.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_a21s-eng \
-    aosp_a21s-user \
-    aosp_a21s-userdebug
+    infinity_a21-eng \
+    infinity_a21-user \
+    infinity_a21-userdebug
