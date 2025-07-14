@@ -27,7 +27,7 @@ $(call inherit-product, device/samsung/a21s/device.mk)
 INFINITY_BUILD_TYPE := UNOFFICIAL 
 
 # Maintainer Name
-INFINITY_MAINTAINER := "Mustafa"
+INFINITY_MAINTAINER := Mustafa
 
 # Whether the package includes System BLURS
 TARGET_SUPPORTS_BLUR := true 
