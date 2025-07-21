@@ -30,7 +30,7 @@ INFINITY_BUILD_TYPE := UNOFFICIAL
 INFINITY_MAINTAINER := Mustafa
 
 ## Inherit some common infinity stuff
-#$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
 ## Boot Animation
 TARGET_SCREEN_HEIGHT := 1600
