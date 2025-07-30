@@ -44,6 +44,12 @@ TARGET_SHIPS_GOOGLE_DIALER := false
 # Whether the compiled package ships Motorola Calculator:
 USE_MOTO_CALCULATOR := true
 
+ro.product.marketname=Samsung a21s
+ro.infinity.soc=Exynos 850
+ro.infinity.battery=5000 mAh
+ro.infinity.display=720 x 1600, 60 Hz
+ro.infinity.camera= 48mp
+
 ## Inherit some common infinity stuff
 $(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
